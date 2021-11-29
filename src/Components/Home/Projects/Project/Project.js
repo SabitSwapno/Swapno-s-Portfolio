@@ -11,7 +11,7 @@ const Project = (props) => {
                 <div className="card-body">
                     <h5 className="card-title">{name}</h5>
                     <p className="card-text">{technologies} </p>
-                    <a href={livesite} className="ButtonCustom">Live Site</a>
+                    <a target="_blank" href={livesite} className="ButtonCustom">Live Site</a>
                     <button className="CustomButton1 mx-2">Details</button>
                 </div>
             </div>

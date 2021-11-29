@@ -6,7 +6,7 @@ const NavigationBar = () => {
     return (
         <>
             <div>
-                <Navbar expand="lg" className="backgroud-nav sticky-top">
+                <Navbar sticky="top" expand="lg" className="backgroud-nav">
                     <Container>
                         <Navbar.Brand href="/home" style={{
                             fontSize: "32px",
@@ -30,7 +30,7 @@ const NavigationBar = () => {
                             <Nav.Link style={{
                                 color: "black",
                                 fontSize: "20px"
-                            }} href="">Contact</Nav.Link>
+                            }} href="#contact">Contact</Nav.Link>
                         </Navbar.Collapse>
                     </Container>
                 </Navbar>

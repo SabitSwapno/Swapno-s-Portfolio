@@ -9,6 +9,7 @@
     padding: 12px 30px;
     font-size: 20px;
     border-radius: 4px 30px;
+    border: none;
 }
 .ButtonCustom:hover {
     background-color: black;

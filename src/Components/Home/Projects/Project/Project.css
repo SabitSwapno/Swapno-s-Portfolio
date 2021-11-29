@@ -1,0 +1,26 @@
+.CustomButton1{
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding: 12px 30px;
+    font-size: 20px;
+    border-radius: 4px 30px;
+    border: none;
+}
+
+.CustomButton1:hover {
+    background-color: #ff4522;
+}
+.cardstyles {
+    box-shadow: 0px 0px 10px 1px gray;
+    transition: .5s;
+    overflow: hidden;
+}
+.cardstyles:hover {
+    background-color: rgba(0, 0, 0, 0.192);
+}
+
+.cardstyles img:hover {
+    transform: scale(1.2);
+    transition: transform 1s ease-in-out;
+}

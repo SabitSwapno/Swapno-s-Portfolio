@@ -1,5 +1,6 @@
 import React from 'react';
 import NavigationBar from '../Header/NavigationBar/NavigationBar';
+import Tada from 'react-reveal/Tada';
 
 const AboutMe = () => {
     return (
@@ -8,9 +9,11 @@ const AboutMe = () => {
             <div style={{
                 marginTop: "5.5rem"
             }}>
-                <h1 className="textColorC mb-3">About Me</h1>
+                <Tada>
+                    <h1 className="textColorC mb-3">About Me</h1>
+                </Tada>
                 <div className="row text-start ms-2 d-flex justify-content-center align-items-center">
-                    <div className="col-md-6 col-sm-12">
+                    <div data-aos="fade-left" className="col-md-6 col-sm-12">
                         <h3>Personal Infos</h3>
                         <div className="row text-start">
                             <div className="col-6">
@@ -24,7 +27,7 @@ const AboutMe = () => {
                                 <h5 className="fw-bolder">+880 1787 040018</h5>
                                 <br />
                                 <h4>Linked In</h4>
-                                <a style={{
+                                <a target="_blank" style={{
                                     color: "#72b626",
                                     fontSize: "18px"
                                 }} href="https://www.linkedin.com/in/sabit-swapno-397850216/">linkedin/sabitswapno</a>
@@ -40,14 +43,14 @@ const AboutMe = () => {
                                 <h5 className="fw-bolder">Sultanabad, Rajshahi</h5>
                                 <br />
                                 <h4>Github</h4>
-                                <a style={{
+                                <a target="_blank" style={{
                                     color: "#72b626",
                                     fontSize: "18px"
                                 }} href="https://github.com/SabitSwapno">github/sabitswapno</a>
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-6 col-sm-12 mt-3">
+                    <div data-aos="fade-right" className="col-md-6 col-sm-12 mt-3">
                         <h3>My Objective</h3>
                         <h5>To acquire confidence and fame using my prospect in the field of “Web Development”, and express my
                             creative skills for self and company growth. My passion is to make templates and websites. I started to

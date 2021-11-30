@@ -1,6 +1,7 @@
 import React, { useRef } from 'react';
 import emailjs from 'emailjs-com';
 import './Contact.css'
+import Jump from 'react-reveal/Jump';
 
 const Contact = () => {
     const form = useRef();
@@ -20,32 +21,34 @@ const Contact = () => {
 
     return (
         <div className="bgImage py-4" id="contact">
-            <h1 className="pb-3 text-white"><span className="textColorC ">Contact</span> Me</h1>
+            <Jump>
+                <h1 className="pb-3 text-white"><span className="textColorC ">Contact</span> Me</h1>
+            </Jump>
             <div className="container">
                 <div className="row text-start d-flex justify-content-center align-items-center">
-                    <div className="col-md-6 col-sm-12">
+                    <div data-aos="fade-right" className="col-md-6 col-sm-12">
                         <h2 className="text-white">GET IN TOUCH</h2>
                         <h5 className="text-white">Please fill out the form on this section to contact with me. Or call me to the number below.</h5>
-                        <h5 className="text-white"><i class="fas fa-map-marker-alt pe-2"></i>  Sultanabad, Rajshahi, Bangladesh</h5>
-                        <h5 className="text-white"><i class="fas fa-phone-alt pe-2"></i>  +880 1787 040018</h5>
-                        <h5 className="text-white"><i class="fas fa-envelope pe-2"></i>  sabitswapno3@gmail.com</h5>
+                        <h5 className="text-white"><i className="fas fa-map-marker-alt pe-2"></i>  Sultanabad, Rajshahi, Bangladesh</h5>
+                        <h5 className="text-white"><i className="fas fa-phone-alt pe-2"></i>  +880 1787 040018</h5>
+                        <h5 className="text-white"><i className="fas fa-envelope pe-2"></i>  sabitswapno3@gmail.com</h5>
                         <a style={{
                             fontSize: "20px",
                             color: "white"
                         }} target="_blank" href="https://www.facebook.com/Ibne.sabit.swapno">
-                            <i class="fab fa-facebook me-4"></i></a>
+                            <i className="fab fa-facebook me-4"></i></a>
                         <a style={{
                             fontSize: "20px",
                             color: "white"
                         }} target="_blank" href="https://www.linkedin.com/in/sabit-swapno-397850216/">
-                            <i class="fab fa-linkedin-in me-4"></i></a>
+                            <i className="fab fa-linkedin-in me-4"></i></a>
                         <a style={{
                             fontSize: "20px",
                             color: "white"
                         }} target="_blank" href="https://github.com/SabitSwapno">
-                            <i class="fab fa-github me-4"></i></a>
+                            <i className="fab fa-github me-4"></i></a>
                     </div>
-                    <div className="col-md-6 col-sm-12">
+                    <div data-aos="fade-left" className="col-md-6 col-sm-12">
                         <h4 className="text-white">In case if you want to connect with me.</h4>
                         <form ref={form} onSubmit={sendEmail}>
                             <div className="mb-3">

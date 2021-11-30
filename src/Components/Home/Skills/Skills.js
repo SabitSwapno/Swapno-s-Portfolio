@@ -1,51 +1,69 @@
 import React from 'react';
+import './Skills.css';
 
 const Skills = () => {
     return (
-        <div id="skills">
-            <h1 className="fw-bold ">My <span className="textColorC">Skills</span></h1>
-            <div className="row">
-                <div className="col-md-3 col-sm-6">
-                    <h3>Expertise</h3>
-                    <ul>
-                        <li><i class="fab fa-react"></i> React JS</li>
-                        <li><i class="fab fa-html5"></i> HTML5</li>
-                        <li><i class="fab fa-css3-alt"> </i> CSS3</li>
-                        <li><i class="fas fa-fire"></i> Firebase Authentication</li>
-                        <li><i class="fas fa-file-excel"></i> Express JS</li>
-                    </ul>
+        <>
+            <div className="container my-5" id="skills">
+                <h1 className="fw-bold mb-2">My <span className="textColorC">Skills</span> </h1>
+                <div className="d-flex justify-content-between my-2">
+                    <h3>Html</h3>
+                    <h3>74%</h3>
                 </div>
-                <div className="col-md-3 col-sm-6">
-                    <h3>Languages</h3>
-                    <ul>
-                        <li><i class="fab fa-html5"></i> HTML</li>
-                        <li><i class="fab fa-css3-alt"></i> CSS</li>
-                        <li><i class="fab fa-js-square"></i> JS</li>
-                    </ul>
+                <div data-aos="zoom-in-right" className="progress my-2">
+                    <div className="progress-bar progress-bar-striped progress-bar-animated customBgColor" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style={{ width: "74%" }}></div>
                 </div>
-                <div className="col-md-3 col-sm-6">
-                    <h3>FrameWorks</h3>
-                    <ul>
-                        <li><i class="fab fa-bootstrap"></i> Bootstrap</li>
-                        <li><i class="fas fa-wind"></i> Tailwind CSS</li>
-                        <li><i class="fab fa-mastodon"></i> Material Ui</li>
-                        <li><i class="fab fa-reacteurope"></i> React Bootstrap</li>
-                    </ul>
+                <div className="d-flex justify-content-between my-2">
+                    <h3>CSS</h3>
+                    <h3>79%</h3>
                 </div>
-                <div className="col-md-3 col-sm-6">
-                    <h3>Tools</h3>
-                    <ul>
-                        <li><i class="fab fa-react"></i> Create React App</li>
-                        <li><i class="fab fa-figma"></i> Figma</li>
-                        <li><i class="fab fa-chrome"></i> Chrome Dev Tool</li>
-                        <li><i class="fas fa-fire"></i> Firebase</li>
-                        <li><i class="fab fa-kickstarter-k"></i> Heroku</li>
-                        <li><i class="fab fa-mdb"></i> MongoDB</li>
-                        <li>Etc</li>
-                    </ul>
+                <div data-aos="zoom-in-right" className="progress my-2">
+                    <div className="progress-bar progress-bar-striped progress-bar-animated customBgColor" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style={{ width: "79%" }}></div>
+                </div>
+                <div className="d-flex justify-content-between my-2">
+                    <h3>Javascript</h3>
+                    <h3>61%</h3>
+                </div>
+                <div data-aos="zoom-in-right" className="progress my-2">
+                    <div className="progress-bar progress-bar-striped progress-bar-animated customBgColor" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style={{ width: "61%" }}></div>
+                </div>
+                <div className="d-flex justify-content-between my-2">
+                    <h3>React</h3>
+                    <h3>73%</h3>
+                </div>
+                <div data-aos="zoom-in-right" className="progress my-2">
+                    <div className="progress-bar progress-bar-striped progress-bar-animated customBgColor" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style={{ width: "73%" }}></div>
+                </div>
+                <div className="d-flex justify-content-between my-2">
+                    <h3>Bootstrap</h3>
+                    <h3>84%</h3>
+                </div>
+                <div data-aos="zoom-in-right" className="progress my-2">
+                    <div className="progress-bar progress-bar-striped progress-bar-animated customBgColor" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style={{ width: "84%" }}></div>
+                </div>
+                <div className="d-flex justify-content-between my-2">
+                    <h3>Express JS</h3>
+                    <h3>70%</h3>
+                </div>
+                <div data-aos="zoom-in-right" className="progress my-2">
+                    <div className="progress-bar progress-bar-striped progress-bar-animated customBgColor" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style={{ width: "70%" }}></div>
+                </div>
+                <div className="d-flex justify-content-between my-2">
+                    <h3>Firebase</h3>
+                    <h3>75%</h3>
+                </div>
+                <div data-aos="zoom-in-right" className="progress my-2">
+                    <div className="progress-bar progress-bar-striped progress-bar-animated customBgColor" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style={{ width: "75%" }}></div>
+                </div>
+                <div className="d-flex justify-content-between my-2">
+                    <h3>MongoDB</h3>
+                    <h3>72%</h3>
+                </div>
+                <div data-aos="zoom-in-right" className="progress my-2">
+                    <div className="progress-bar progress-bar-striped progress-bar-animated customBgColor" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style={{ width: "72%" }}></div>
                 </div>
             </div>
-        </div>
+        </>
     );
 };
 

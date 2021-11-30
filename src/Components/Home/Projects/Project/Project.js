@@ -6,7 +6,9 @@ const Project = (props) => {
     const { id, name, technologies, img, livesite } = props.project;
     return (
         <div className="my-5">
-            <div className="cards ">
+            <div data-aos="fade-right"
+                data-aos-offset="300"
+                data-aos-easing="ease-in-sine" className="cards ">
                 <img src={img} />
                 <div className="info">
                     <h2>{name}</h2>

@@ -14,7 +14,7 @@ const NavigationBar = () => {
                             fontSize: "32px",
                             fontWeight: "700",
                             color: "white"
-                        }}>Portfolio</Navbar.Brand>
+                        }}>It's Me Swapno</Navbar.Brand>
                         <Navbar.Toggle
                             aria-controls="basic-navbar-nav" />
                         <Navbar.Collapse className="justify-content-end">
@@ -38,6 +38,10 @@ const NavigationBar = () => {
                                 color: "white",
                                 fontSize: "20px"
                             }} to="/aboutMe">About Me</Nav.Link>
+                            <Nav.Link as={Link} style={{
+                                color: "white",
+                                fontSize: "20px"
+                            }} to="/blogs">Blogs</Nav.Link>
                         </Navbar.Collapse>
                     </Container>
                 </Navbar>

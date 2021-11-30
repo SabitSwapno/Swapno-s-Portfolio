@@ -1,18 +1,20 @@
 import React from 'react';
-import { Card } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 import './Project.css'
 
 const Project = (props) => {
-    const { name, technologies, img, livesite } = props.project;
+    const { id, name, technologies, img, livesite } = props.project;
     return (
-        <div className="col-md-6 col-sm-12">
-            <div className="card cardstyles">
-                <img src={img} className="card-img-top" alt="..." />
-                <div className="card-body">
-                    <h5 className="card-title">{name}</h5>
-                    <p className="card-text">{technologies} </p>
+        <div className="my-5">
+            <div className="cards ">
+                <img src={img} />
+                <div className="info">
+                    <h2>{name}</h2>
+                    <h5>{technologies} </h5>
                     <a target="_blank" href={livesite} className="ButtonCustom">Live Site</a>
-                    <button className="CustomButton1 mx-2">Details</button>
+                    <Link to={`/details/${id}`}>
+                        <button className="CustomButton1 mx-2">Details</button>
+                    </Link>
                 </div>
             </div>
         </div>

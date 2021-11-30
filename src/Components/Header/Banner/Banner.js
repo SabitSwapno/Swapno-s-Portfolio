@@ -4,7 +4,7 @@ import pic from '../../../images/20201217_162333 (1).jpg';
 
 const Banner = () => {
     return (
-        <div className="row d-flex justify-content-center align-items-center my-4">
+        <div className="row d-flex justify-content-center align-items-center mb-4 topmargin">
             <div className="col-md-6 col-sm-12">
                 <img style={{
                     width: "60%",

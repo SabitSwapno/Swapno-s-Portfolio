@@ -5,6 +5,9 @@
         "description": "CUSTOMERS INTERACTIONS: After a one-time registration, logged-in users can easily place, manage their orders and also leave his/her review.ADMIN’S ACCESSIBILITY: Admins have some special access containing adding a product, managing all orders, managing products, and making a new admin.PRODUCTION: Making the world a better place through producing elegant consequences.",
         "technologies": "React, Bootstrap, Firebase Authentication, NPM, React Router, Express Js, MongoDB.",
         "img": "https://i.ibb.co/nnxCzF7/the-bike.jpg",
+        "img2": "https://i.ibb.co/mH5JP0R/bikeplace-img-2.jpg",
+        "img3": "https://i.ibb.co/X3gf3Py/bikeplace-img-3.jpg",
+        "githublink": "https://github.com/SabitSwapno/Bike-place-wheels-client",
         "livesite": "https://the-bike-place-and-wheels.firebaseapp.com/"
     },
     {
@@ -13,6 +16,9 @@
         "description": "It's a mern stack website that is responsive for smaller devices, easy to use, has both frontend and backend data, overall an imperative website for the tourists. USERS INTERACTIONS: The logged-in user can easily place and manage his bookings after one-time registration.It's a single-page application that means no issues of reloading with the user's satisfaction.",
         "technologies": "React, Bootstrap, Firebase Authentication, NPM, React Router, Express Js, MongoDB.",
         "img": "https://i.ibb.co/XWTrSKG/Fly-hope-1.jpg",
+        "img2": "https://i.ibb.co/SmHrTZh/fly-BD-img2.jpg",
+        "img3": "https://i.ibb.co/jTkh67v/fly-Bd-img3.jpg",
+        "githublink": "https://github.com/SabitSwapno/Fly-hopes-bd-clients",
         "livesite": "https://fly-hope-bd-travel-agency.web.app/"
     },
     {
@@ -21,14 +27,20 @@
         "description": "USERS INTERACTIONS: Users can collect all the info about the clinic. Logged-in users have some extra accessibility to get all doctor's details. EMERGENCY CARE: Clinical excellence must be the priority for any health care service provider. CHAMBER SERVICES: Create a strong and lasting first impression on your potential clients with Mediplus.",
         "technologies": "React, Bootstrap, Firebase Authentication, React Router, NPM.",
         "img": "https://i.ibb.co/cksz28g/lifeline-clinic-1.jpg",
+        "img2": "https://i.ibb.co/dfsxrB5/lifeline-img-2.jpg",
+        "img3": "https://i.ibb.co/VVkGhTg/lifeline-img-3.jpg",
+        "githublink": "https://github.com/SabitSwapno/Lifeline-health-care",
         "livesite": "https://lifeline-general-clinic.web.app/"
     },
     {
         "id": 4,
         "name": "Mac Book Pro",
-        "description": "USERS INTERACTIONS: Users can choose their categories of memory, storage, and delivery option.PROMO CODE: Users can use a promo code and get a 25% discount. ",
+        "description": "USERS INTERACTIONS: Users can choose their categories of memory, storage, and delivery options. PROMO CODE: Users can use a promo code and get a 25% discount. ",
         "technologies": "Html5, CSS3, Bootstrap, Javascript",
         "img": "https://i.ibb.co/2Njzppx/mac-book-1.jpg",
+        "img2": "https://i.ibb.co/BT9BZ2R/mac-img2.jpg",
+        "img3": "https://i.ibb.co/6Y6tfv3/mac-img-3.jpg",
+        "githublink": "https://github.com/SabitSwapno/Mac-Book-pro",
         "livesite": "https://macbook-pro-assignment-mr-swap.netlify.app/"
     }
 ]

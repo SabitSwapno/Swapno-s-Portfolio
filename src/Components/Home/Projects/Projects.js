@@ -12,7 +12,7 @@ const Projects = () => {
         <div classname="my-5" id="projects">
             <h1 className="fw-bold ">My <span className="textColorC">Projects</span> </h1>
             <div className="container my-5">
-                <div className="row g-3">
+                <div>
                     {
                         project.map(project => <Project
                             key={project.id}

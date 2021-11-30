@@ -1,36 +1,43 @@
 import React from 'react';
 import { Container, Nav, Navbar } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
 import './NavigationBar.css';
 
 const NavigationBar = () => {
     return (
         <>
             <div>
-                <Navbar sticky="top" expand="lg" className="backgroud-nav">
+                <Navbar fixed="top" expand="lg" className="backgroud-nav">
                     <Container>
                         <Navbar.Brand href="/home" style={{
                             fontSize: "32px",
-                            fontWeight: "700"
+                            fontWeight: "700",
+                            color: "white"
                         }}>Portfolio</Navbar.Brand>
                         <Navbar.Toggle
                             aria-controls="basic-navbar-nav" />
                         <Navbar.Collapse className="justify-content-end">
-                            <Nav.Link style={{
-                                color: "black",
+                            <Nav.Link as={HashLink} style={{
+                                color: "white",
                                 fontSize: "20px"
-                            }} href="/home">Home</Nav.Link>
-                            <Nav.Link style={{
-                                color: "black",
+                            }} to="/home#home">Home</Nav.Link>
+                            <Nav.Link as={HashLink} style={{
+                                color: "white",
                                 fontSize: "20px"
-                            }} href="#skills">Skills</Nav.Link>
-                            <Nav.Link style={{
-                                color: "black",
+                            }} to="/home#skills">Skills</Nav.Link>
+                            <Nav.Link as={HashLink} style={{
+                                color: "white",
                                 fontSize: "20px"
-                            }} href="#projects">Projects</Nav.Link>
-                            <Nav.Link style={{
-                                color: "black",
+                            }} to="/home#projects">Projects</Nav.Link>
+                            <Nav.Link as={HashLink} style={{
+                                color: "white",
                                 fontSize: "20px"
-                            }} href="#contact">Contact</Nav.Link>
+                            }} to="/home#contact">Contact</Nav.Link>
+                            <Nav.Link as={Link} style={{
+                                color: "white",
+                                fontSize: "20px"
+                            }} to="/aboutMe">About Me</Nav.Link>
                         </Navbar.Collapse>
                     </Container>
                 </Navbar>

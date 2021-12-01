@@ -14,7 +14,7 @@ const NavigationBar = () => {
                             fontSize: "32px",
                             fontWeight: "700",
                             color: "white"
-                        }}>It's Me Swapno</Navbar.Brand>
+                        }}>Welcome</Navbar.Brand>
                         <Navbar.Toggle
                             aria-controls="basic-navbar-nav" />
                         <Navbar.Collapse className="justify-content-end">

@@ -25,8 +25,8 @@ const Contact = () => {
                 <h1 className="pb-3 text-white"><span className="textColorC ">Contact</span> Me</h1>
             </Jump>
             <div className="container">
-                <div className="row text-start d-flex justify-content-center align-items-center">
-                    <div data-aos="fade-right" className="col-md-6 col-sm-12">
+                <div data-aos="zoom-in-right" className="row text-start d-flex justify-content-center align-items-center">
+                    <div className="col-md-6 col-sm-12">
                         <h2 className="text-white">GET IN TOUCH</h2>
                         <h5 className="text-white">Please fill out the form on this section to contact with me. Or call me to the number below.</h5>
                         <h5 className="text-white"><i className="fas fa-map-marker-alt pe-2"></i>  Sultanabad, Rajshahi, Bangladesh</h5>
@@ -48,7 +48,7 @@ const Contact = () => {
                         }} target="_blank" href="https://github.com/SabitSwapno">
                             <i className="fab fa-github me-4"></i></a>
                     </div>
-                    <div data-aos="fade-left" className="col-md-6 col-sm-12">
+                    <div data-aos="zoom-in-left" className="col-md-6 col-sm-12">
                         <h4 className="text-white">In case if you want to connect with me.</h4>
                         <form ref={form} onSubmit={sendEmail}>
                             <div className="mb-3">

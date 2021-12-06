@@ -2,6 +2,7 @@ import React from 'react';
 import './Skills.css';
 
 const Skills = () => {
+
     return (
         <>
             <div className="container my-5" id="skills">

@@ -10,6 +10,7 @@ import Home from './Components/Home/Home';
 import Details from './Components/Home/Projects/Details/Details';
 import NotFound from './Components/NotFound/NotFound';
 
+
 function App() {
   return (
     <div className="App">

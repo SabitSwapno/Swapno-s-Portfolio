@@ -1,3 +1,14 @@
 .customBgColor {
     background-color: #72b626;
 }
+.cardBg {
+    border: 1px solid rgba(128, 128, 128, 0.63);
+    box-shadow: 0px 0px 20px 2px grey;
+    border-radius: 4px 15px;
+}
+.cardBg:hover {
+background-color: rgba(51, 51, 51, 0.562);
+}
+.cardBg:hover h4 {
+    color: white;
+}

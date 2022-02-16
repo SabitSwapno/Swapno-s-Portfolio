@@ -99,7 +99,7 @@ const AboutMe = () => {
                 marginTop: "5.5rem"
             }}>
                 <Tada>
-                    <h1 className="textColorC mb-3">About Me</h1>
+                    <h1>About Me</h1>
                 </Tada>
                 <div className="row text-start ms-2 d-flex justify-content-center align-items-center">
                     <div data-aos="fade-left" className="col-md-6 col-sm-12">

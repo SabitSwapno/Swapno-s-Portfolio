@@ -105,7 +105,7 @@ const Skills = () => {
                         <div data-aos="zoom-in-right" className="card my-4 cardBg">
                             <img style={{
                                 width: "75%"
-                            }} src={herokuPic} className="card-img-top img-fluid ps-4 py-2" alt="..." />
+                            }} src={herokuPic} className="card-img-top img-fluid ps-4 pt-3" alt="..." />
                             <div className="card-body">
                                 <h4 className="card-title">HEROKU</h4>
                             </div>
